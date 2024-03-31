@@ -1,0 +1,69 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\AP\\csharp\\TinDog\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{76E05B92-30DF-4342-8B93-A6731D7A255E}|CadastroPet\\CadastroPet.csproj|c:\\ap\\csharp\\tindog\\cadastropet\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{76E05B92-30DF-4342-8B93-A6731D7A255E}|CadastroPet\\CadastroPet.csproj|solutionrelative:cadastropet\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76E05B92-30DF-4342-8B93-A6731D7A255E}|CadastroPet\\CadastroPet.csproj|c:\\ap\\csharp\\tindog\\cadastropet\\pet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{76E05B92-30DF-4342-8B93-A6731D7A255E}|CadastroPet\\CadastroPet.csproj|solutionrelative:cadastropet\\pet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76E05B92-30DF-4342-8B93-A6731D7A255E}|CadastroPet\\CadastroPet.csproj|c:\\ap\\csharp\\tindog\\cadastropet\\tutor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{76E05B92-30DF-4342-8B93-A6731D7A255E}|CadastroPet\\CadastroPet.csproj|solutionrelative:cadastropet\\tutor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Pet.cs",
+              "DocumentMoniker": "C:\\AP\\csharp\\TinDog\\CadastroPet\\Pet.cs",
+              "RelativeDocumentMoniker": "CadastroPet\\Pet.cs",
+              "ToolTip": "C:\\AP\\csharp\\TinDog\\CadastroPet\\Pet.cs",
+              "RelativeToolTip": "CadastroPet\\Pet.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-25T20:25:20.11Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Tutor.cs",
+              "DocumentMoniker": "C:\\AP\\csharp\\TinDog\\CadastroPet\\Tutor.cs",
+              "RelativeDocumentMoniker": "CadastroPet\\Tutor.cs",
+              "ToolTip": "C:\\AP\\csharp\\TinDog\\CadastroPet\\Tutor.cs",
+              "RelativeToolTip": "CadastroPet\\Tutor.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-25T20:25:19.343Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\AP\\csharp\\TinDog\\CadastroPet\\Program.cs",
+              "RelativeDocumentMoniker": "CadastroPet\\Program.cs",
+              "ToolTip": "C:\\AP\\csharp\\TinDog\\CadastroPet\\Program.cs",
+              "RelativeToolTip": "CadastroPet\\Program.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAxwDgAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-25T20:25:18.466Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

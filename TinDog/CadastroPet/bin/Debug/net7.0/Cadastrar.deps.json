@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "CadastroPet/1.0.0": {
+        "runtime": {
+          "CadastroPet.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "CadastroPet/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

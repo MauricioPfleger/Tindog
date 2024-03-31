@@ -1,0 +1,14 @@
+C:\AP\csharp\TinDog\CadastroPet\bin\Debug\net7.0\CadastroPet.exe
+C:\AP\csharp\TinDog\CadastroPet\bin\Debug\net7.0\CadastroPet.deps.json
+C:\AP\csharp\TinDog\CadastroPet\bin\Debug\net7.0\CadastroPet.runtimeconfig.json
+C:\AP\csharp\TinDog\CadastroPet\bin\Debug\net7.0\CadastroPet.dll
+C:\AP\csharp\TinDog\CadastroPet\bin\Debug\net7.0\CadastroPet.pdb
+C:\AP\csharp\TinDog\CadastroPet\obj\Debug\net7.0\CadastroPet.GeneratedMSBuildEditorConfig.editorconfig
+C:\AP\csharp\TinDog\CadastroPet\obj\Debug\net7.0\CadastroPet.AssemblyInfoInputs.cache
+C:\AP\csharp\TinDog\CadastroPet\obj\Debug\net7.0\CadastroPet.AssemblyInfo.cs
+C:\AP\csharp\TinDog\CadastroPet\obj\Debug\net7.0\CadastroPet.csproj.CoreCompileInputs.cache
+C:\AP\csharp\TinDog\CadastroPet\obj\Debug\net7.0\CadastroPet.dll
+C:\AP\csharp\TinDog\CadastroPet\obj\Debug\net7.0\refint\CadastroPet.dll
+C:\AP\csharp\TinDog\CadastroPet\obj\Debug\net7.0\CadastroPet.pdb
+C:\AP\csharp\TinDog\CadastroPet\obj\Debug\net7.0\CadastroPet.genruntimeconfig.cache
+C:\AP\csharp\TinDog\CadastroPet\obj\Debug\net7.0\ref\CadastroPet.dll

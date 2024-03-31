@@ -1,0 +1,14 @@
+C:\AP\csharp\AdicionarConsultar\ListaTindog\bin\Debug\net7.0\ListaTindog.exe
+C:\AP\csharp\AdicionarConsultar\ListaTindog\bin\Debug\net7.0\ListaTindog.deps.json
+C:\AP\csharp\AdicionarConsultar\ListaTindog\bin\Debug\net7.0\ListaTindog.runtimeconfig.json
+C:\AP\csharp\AdicionarConsultar\ListaTindog\bin\Debug\net7.0\ListaTindog.dll
+C:\AP\csharp\AdicionarConsultar\ListaTindog\bin\Debug\net7.0\ListaTindog.pdb
+C:\AP\csharp\AdicionarConsultar\ListaTindog\obj\Debug\net7.0\ListaTindog.GeneratedMSBuildEditorConfig.editorconfig
+C:\AP\csharp\AdicionarConsultar\ListaTindog\obj\Debug\net7.0\ListaTindog.AssemblyInfoInputs.cache
+C:\AP\csharp\AdicionarConsultar\ListaTindog\obj\Debug\net7.0\ListaTindog.AssemblyInfo.cs
+C:\AP\csharp\AdicionarConsultar\ListaTindog\obj\Debug\net7.0\ListaTindog.csproj.CoreCompileInputs.cache
+C:\AP\csharp\AdicionarConsultar\ListaTindog\obj\Debug\net7.0\ListaTindog.dll
+C:\AP\csharp\AdicionarConsultar\ListaTindog\obj\Debug\net7.0\refint\ListaTindog.dll
+C:\AP\csharp\AdicionarConsultar\ListaTindog\obj\Debug\net7.0\ListaTindog.pdb
+C:\AP\csharp\AdicionarConsultar\ListaTindog\obj\Debug\net7.0\ListaTindog.genruntimeconfig.cache
+C:\AP\csharp\AdicionarConsultar\ListaTindog\obj\Debug\net7.0\ref\ListaTindog.dll
