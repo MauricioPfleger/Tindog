@@ -29,6 +29,7 @@ internal class Program
                 Console.WriteLine($"Raça do pet: {Pet.ToDisplayString(pet.Raca)}");
                 Console.WriteLine($"Idade do pet: {pet.Idade}");
                 Console.WriteLine($"Peso do pet: {pet.Peso}");
+                Console.WriteLine($"Genero do pet: {pet.Genero}");
                 Console.WriteLine("-----------------------------");
             }
             Console.WriteLine();

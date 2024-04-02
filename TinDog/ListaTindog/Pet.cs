@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Net;
 using System.Runtime.InteropServices;
+using System.Runtime.Serialization;
 using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
@@ -41,10 +42,17 @@ namespace ListaTindog
             Caramelo
         }
 
+        internal enum Generos
+        {
+            Macho,
+            Femea,
+        }
+
         public string? Nome { get; set; }
         public int Idade { get; set; }
         public double Peso { get; set; }
-        public Racas Raca {  get; set; }
+        public Racas Raca { get; set; }
+        public Generos Genero { get; set; }
         public Pet() { }
 
         public static string ToDisplayString(Racas raca)
