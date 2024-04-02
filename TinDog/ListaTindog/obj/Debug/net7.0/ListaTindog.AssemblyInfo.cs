@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ListaTindog")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+50a10fccada570374ea2d2a90ad42a749c1bfff2")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+dd347734408a00fa39594a4deb2b4f5adbb4851c")]
 [assembly: System.Reflection.AssemblyProductAttribute("ListaTindog")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ListaTindog")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

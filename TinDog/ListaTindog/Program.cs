@@ -11,6 +11,8 @@ internal class Program
         Console.WriteLine("Digite o nome do tutor que deseja buscar as informações: ");
         busca = Console.ReadLine();
 
+        Console.WriteLine(Pet.ToDisplayString(Pet.Racas.Bulldog_Ingles));
+
         var tutor = informacoes.Tutores.FirstOrDefault(tutor => tutor.Nome == busca);
         if (tutor == null)
         {
@@ -19,12 +21,12 @@ internal class Program
         else
         {
             Console.WriteLine($"Pets do {tutor.Nome}");
-            //Console.WriteLine($"Idade do tutor: {tutor.Idade}");
+            Console.WriteLine($"Idade do tutor: {tutor.Idade}");
             Console.WriteLine();
             foreach (var pet in tutor.Pets)
             {
                 Console.WriteLine($"Nome do pet: {pet.Nome}");
-                Console.WriteLine($"Raça do pet: {pet.Raca}");
+                Console.WriteLine($"Raça do pet: {Pet.ToDisplayString(pet.Raca)}");
                 Console.WriteLine($"Idade do pet: {pet.Idade}");
                 Console.WriteLine($"Peso do pet: {pet.Peso}");
                 Console.WriteLine("-----------------------------");

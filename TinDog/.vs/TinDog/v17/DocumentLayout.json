@@ -1,12 +1,88 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\AP\\csharp\\TinDog\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C3BEAA3F-D439-487F-9F6E-4E02E8C56E70}|ListaTindog\\ListaTindog.csproj|c:\\ap\\csharp\\tindog\\listatindog\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3BEAA3F-D439-487F-9F6E-4E02E8C56E70}|ListaTindog\\ListaTindog.csproj|solutionrelative:listatindog\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3BEAA3F-D439-487F-9F6E-4E02E8C56E70}|ListaTindog\\ListaTindog.csproj|c:\\ap\\csharp\\tindog\\listatindog\\pet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3BEAA3F-D439-487F-9F6E-4E02E8C56E70}|ListaTindog\\ListaTindog.csproj|solutionrelative:listatindog\\pet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3BEAA3F-D439-487F-9F6E-4E02E8C56E70}|ListaTindog\\ListaTindog.csproj|c:\\ap\\csharp\\tindog\\listatindog\\informacoes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3BEAA3F-D439-487F-9F6E-4E02E8C56E70}|ListaTindog\\ListaTindog.csproj|solutionrelative:listatindog\\informacoes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3BEAA3F-D439-487F-9F6E-4E02E8C56E70}|ListaTindog\\ListaTindog.csproj|c:\\ap\\csharp\\tindog\\listatindog\\tutor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3BEAA3F-D439-487F-9F6E-4E02E8C56E70}|ListaTindog\\ListaTindog.csproj|solutionrelative:listatindog\\tutor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\AP\\csharp\\TinDog\\ListaTindog\\Program.cs",
+              "RelativeDocumentMoniker": "ListaTindog\\Program.cs",
+              "ToolTip": "C:\\AP\\csharp\\TinDog\\ListaTindog\\Program.cs",
+              "RelativeToolTip": "ListaTindog\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-01T23:15:24.533Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Informacoes.cs",
+              "DocumentMoniker": "C:\\AP\\csharp\\TinDog\\ListaTindog\\Informacoes.cs",
+              "RelativeDocumentMoniker": "ListaTindog\\Informacoes.cs",
+              "ToolTip": "C:\\AP\\csharp\\TinDog\\ListaTindog\\Informacoes.cs",
+              "RelativeToolTip": "ListaTindog\\Informacoes.cs",
+              "ViewState": "AQIAABYAAAAAAAAAAAAcwO4AAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-01T23:13:55.075Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Tutor.cs",
+              "DocumentMoniker": "C:\\AP\\csharp\\TinDog\\ListaTindog\\Tutor.cs",
+              "RelativeDocumentMoniker": "ListaTindog\\Tutor.cs",
+              "ToolTip": "C:\\AP\\csharp\\TinDog\\ListaTindog\\Tutor.cs",
+              "RelativeToolTip": "ListaTindog\\Tutor.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-01T23:13:39.73Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Pet.cs",
+              "DocumentMoniker": "C:\\AP\\csharp\\TinDog\\ListaTindog\\Pet.cs",
+              "RelativeDocumentMoniker": "ListaTindog\\Pet.cs",
+              "ToolTip": "C:\\AP\\csharp\\TinDog\\ListaTindog\\Pet.cs",
+              "RelativeToolTip": "ListaTindog\\Pet.cs",
+              "ViewState": "AQIAACUAAAAAAAAAAAAkwC8AAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-01T23:06:11.36Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }

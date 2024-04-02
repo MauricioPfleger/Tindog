@@ -43,6 +43,40 @@ namespace ListaTindog
             "Mauricio"
         };
 
+        int[] IdadesTutores =
+        {
+            15,
+            25,
+            35,
+            45,
+            55,
+            65,
+            75,
+            85,
+            90,
+            12,
+            14,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30
+        };
+
         string[] NomesPets =
         {
             "Max",
@@ -202,6 +236,7 @@ namespace ListaTindog
                     novo = true;
                     tutor = new Tutor();
                     tutor.Nome = NomesTutores[i];
+                    tutor.Idade = IdadesTutores[i];
                 }
 
                 tutor.Pets.Add(pet);

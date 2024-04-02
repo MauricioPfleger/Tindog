@@ -10,6 +10,8 @@ namespace ListaTindog
     {
         public string? Nome {  get; set; }
 
+        public int Idade { get; set; }
+
         public List<Pet> Pets;
         public Tutor() { 
             Pets = new List<Pet>();

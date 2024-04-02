@@ -13,32 +13,32 @@ namespace ListaTindog
     {
         internal enum Racas
         {
-            Labrador_Retriever = 1,
-            Golden_Retriever = 2,
-            Bulldog_Ingles = 3,
-            Bulldog_Frances = 4,
-            Beagle = 5,
-            Poodle = 6 ,
-            Boxer = 7,
-            Dachshund_Teckel = 8,
-            Yorkshire_Terrier = 9,
-            Chihuahua = 10,
-            Pastor_Alemao = 11,
-            Husky_Siberiano = 12,
-            Shih_Tzu = 13,
-            Rottweiler = 14,
-            Border_Collie = 15,
-            Cocker_Spaniel = 16,
-            Doberman_Pinscher = 17,
-            Great_Dane_Dogue_Alemao = 18,
-            Maltese = 19,
-            Pug = 20,
-            Cavalier_King_Charles_Spaniel = 21,
-            Bichon_Frise = 22,
-            Boston_Terrier = 23,
-            Australian_Shepherd = 24,
-            Staffordshire_Bull_Terrier = 25,
-            Caramelo = 26
+            Labrador_Retriever,
+            Golden_Retriever,
+            Bulldog_Ingles,
+            Bulldog_Frances,
+            Beagle,
+            Poodle,
+            Boxer,
+            Dachshund_Teckel,
+            Yorkshire_Terrier,
+            Chihuahua,
+            Pastor_Alemao,
+            Husky_Siberiano,
+            Shih_Tzu,
+            Rottweiler,
+            Border_Collie,
+            Cocker_Spaniel,
+            Doberman_Pinscher,
+            Great_Dane_Dogue_Alemao,
+            Maltese,
+            Pug,
+            Cavalier_King_Charles_Spaniel,
+            Bichon_Frise,
+            Boston_Terrier,
+            Australian_Shepherd,
+            Staffordshire_Bull_Terrier,
+            Caramelo
         }
 
         public string? Nome { get; set; }
@@ -46,5 +46,67 @@ namespace ListaTindog
         public double Peso { get; set; }
         public Racas Raca {  get; set; }
         public Pet() { }
+
+        public static string ToDisplayString(Racas raca)
+        {
+            switch (raca)
+            {
+                case Racas.Labrador_Retriever:
+                    return "Labrador Retriever";
+                case Racas.Golden_Retriever:
+                    return "Golden Retriever";
+                case Racas.Bulldog_Ingles:
+                    return "Bulldog Inglês";
+                case Racas.Bulldog_Frances:
+                    return "Bulldog Francês";
+                case Racas.Beagle:
+                    return "Beagle";
+                case Racas.Poodle:
+                    return "Poodle";
+                case Racas.Boxer:
+                    return "Boxer";
+                case Racas.Dachshund_Teckel:
+                    return "Dachshund (Teckel)";
+                case Racas.Yorkshire_Terrier:
+                    return "Yorkshire Terrier";
+                case Racas.Chihuahua:
+                    return "Chihuahua";
+                case Racas.Pastor_Alemao:
+                    return "Pastor Alemão";
+                case Racas.Husky_Siberiano:
+                    return "Husky Siberiano";
+                case Racas.Shih_Tzu:
+                    return "Shih Tzu";
+                case Racas.Rottweiler:
+                    return "Rottweiler";
+                case Racas.Border_Collie:
+                    return "Border Collie";
+                case Racas.Cocker_Spaniel:
+                    return "Cocker Spaniel";
+                case Racas.Doberman_Pinscher:
+                    return "Doberman Pinscher";
+                case Racas.Great_Dane_Dogue_Alemao:
+                    return "Great Dane (Dogue Alemão)";
+                case Racas.Maltese:
+                    return "Maltês";
+                case Racas.Pug:
+                    return "Pug";
+                case Racas.Cavalier_King_Charles_Spaniel:
+                    return "Cavalier King Charles Spaniel";
+                case Racas.Bichon_Frise:
+                    return "Bichon Frisé";
+                case Racas.Boston_Terrier:
+                    return "Boston Terrier";
+                case Racas.Australian_Shepherd:
+                    return "Pastor Australiano";
+                case Racas.Staffordshire_Bull_Terrier:
+                    return "Staffordshire Bull Terrier";
+                case Racas.Caramelo:
+                    return "Caramelo";
+
+                default:
+                    return raca.ToString().Replace("_", " ");
+            }
+        }
     }
 }
