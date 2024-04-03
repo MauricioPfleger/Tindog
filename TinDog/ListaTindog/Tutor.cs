@@ -12,6 +12,8 @@ namespace ListaTindog
 
         public int Idade { get; set; }
 
+        public string? Endereco { get; set; }
+
         public List<Pet> Pets;
         public Tutor() { 
             Pets = new List<Pet>();
