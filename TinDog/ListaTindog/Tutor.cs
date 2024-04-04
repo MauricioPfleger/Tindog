@@ -19,6 +19,8 @@ namespace ListaTindog
 
         public Genero Generos { get; set; }
 
+        public string? Endereco { get; set; }
+
         public List<Pet> Pets;
         public Tutor() {
             Pets = new List<Pet>();
