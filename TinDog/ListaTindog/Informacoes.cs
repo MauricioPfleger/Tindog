@@ -76,7 +76,11 @@ namespace ListaTindog
             29,
             30
         };
-
+        Tutor.Genero[] Generos =
+        {
+            Tutor.Genero.Feminino,
+            Tutor.Genero.Masculino
+        };
         string[] NomesPets =
         {
             "Max",

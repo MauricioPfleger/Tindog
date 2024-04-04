@@ -20,8 +20,9 @@ internal class Program
         }
         else
         {
-            Console.WriteLine($"Pets do {tutor.Nome}");
+            Console.WriteLine($"Pets de {tutor.Nome}");
             Console.WriteLine($"Idade do tutor: {tutor.Idade}");
+            Console.WriteLine($"gênero do tutor: {tutor.Generos}");
             Console.WriteLine();
             foreach (var pet in tutor.Pets)
             {

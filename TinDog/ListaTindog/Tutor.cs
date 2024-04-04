@@ -6,17 +6,25 @@ using System.Threading.Tasks;
 
 namespace ListaTindog
 {
-    internal class Tutor
-    {
-        public string? Nome {  get; set; }
+    internal class Tutor {
+        internal enum Genero
+        {
+         Feminino,
+         Masculino
+        }
+    
+        public string? Nome { get; set; }
 
         public int Idade { get; set; }
 
-        public string genero { get; set; }
+        public Genero Generos { get; set; }
+
+        public string? Endereco { get; set; }
 
         public List<Pet> Pets;
-        public Tutor() { 
+        public Tutor() {
             Pets = new List<Pet>();
         }
+    
     }
 }
