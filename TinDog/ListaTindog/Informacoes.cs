@@ -76,7 +76,11 @@ namespace ListaTindog
             29,
             30
         };
-
+        Tutor.Genero[] Generos =
+        {
+            Tutor.Genero.Feminino,
+            Tutor.Genero.Masculino
+        };
         string[] NomesPets =
         {
             "Max",
@@ -144,6 +148,43 @@ namespace ListaTindog
             Pet.Racas.Beagle,
             Pet.Racas.Caramelo
         };
+
+        Pet.Generos[] Genero =
+
+        {
+          Pet.Generos.Macho,
+          Pet.Generos.Femea,
+          Pet.Generos.Macho,
+          Pet.Generos.Femea,
+          Pet.Generos.Macho,
+          Pet.Generos.Femea,
+          Pet.Generos.Macho,
+          Pet.Generos.Femea,
+          Pet.Generos.Macho,
+          Pet.Generos.Femea,
+          Pet.Generos.Macho,
+          Pet.Generos.Femea,
+          Pet.Generos.Macho,
+          Pet.Generos.Femea,
+          Pet.Generos.Macho,
+          Pet.Generos.Femea,
+          Pet.Generos.Macho,
+          Pet.Generos.Femea,
+          Pet.Generos.Macho,
+          Pet.Generos.Femea,
+          Pet.Generos.Macho,
+          Pet.Generos.Femea,
+          Pet.Generos.Macho,
+          Pet.Generos.Femea,
+          Pet.Generos.Macho,
+          Pet.Generos.Femea,
+          Pet.Generos.Macho,
+          Pet.Generos.Femea,
+          Pet.Generos.Macho,
+          Pet.Generos.Femea
+
+        };
+
 
         int[] IdadesPets =
         {
@@ -223,8 +264,10 @@ namespace ListaTindog
         {
             for (int i = 0; i < 30; i++)
             {
+                
                 bool novo = false;
                 var pet = new Pet();
+                pet.Genero = Genero[i];   
                 pet.Nome = NomesPets[i];
                 pet.Idade = IdadesPets[i];
                 pet.Peso = PesosPets[i];
