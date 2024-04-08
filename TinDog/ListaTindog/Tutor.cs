@@ -7,17 +7,17 @@ using System.Threading.Tasks;
 namespace ListaTindog
 {
     internal class Tutor {
-        internal enum Genero
+        internal enum Generos
         {
-         Feminino,
-         Masculino
+             Feminino,
+             Masculino
         }
     
         public string? Nome { get; set; }
 
         public int Idade { get; set; }
 
-        public Genero Generos { get; set; }
+        public Generos Genero { get; set; }
 
         public Endereco Endereco { get; set; }
 

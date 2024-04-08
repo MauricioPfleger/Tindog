@@ -76,10 +76,38 @@ namespace ListaTindog
             29,
             30
         };
-        Tutor.Genero[] Generos =
+        Tutor.Generos[] GenerosTutor =
         {
-            Tutor.Genero.Feminino,
-            Tutor.Genero.Masculino
+            Tutor.Generos.Masculino,
+            Tutor.Generos.Masculino,
+            Tutor.Generos.Feminino,
+            Tutor.Generos.Masculino,
+            Tutor.Generos.Feminino,
+            Tutor.Generos.Masculino,
+            Tutor.Generos.Feminino,
+            Tutor.Generos.Masculino,
+            Tutor.Generos.Feminino,
+            Tutor.Generos.Masculino,
+            Tutor.Generos.Feminino,
+            Tutor.Generos.Masculino,
+            Tutor.Generos.Feminino,
+            Tutor.Generos.Masculino,
+            Tutor.Generos.Feminino,
+            Tutor.Generos.Masculino,
+            Tutor.Generos.Feminino,
+            Tutor.Generos.Masculino,
+            Tutor.Generos.Feminino,
+            Tutor.Generos.Masculino,
+            Tutor.Generos.Feminino,
+            Tutor.Generos.Masculino,
+            Tutor.Generos.Feminino,
+            Tutor.Generos.Masculino,
+            Tutor.Generos.Feminino,
+            Tutor.Generos.Masculino,
+            Tutor.Generos.Feminino,
+            Tutor.Generos.Masculino,
+            Tutor.Generos.Feminino,
+            Tutor.Generos.Masculino
         };
         string[] NomesPets =
         {
@@ -149,7 +177,7 @@ namespace ListaTindog
             Pet.Racas.Caramelo
         };
 
-        Pet.Generos[] Genero =
+        Pet.Generos[] GenerosPet =
 
         {
           Pet.Generos.Macho,
@@ -267,7 +295,7 @@ namespace ListaTindog
                 
                 bool novo = false;
                 var pet = new Pet();
-                pet.Genero = Genero[i];   
+                pet.Genero = GenerosPet[i];   
                 pet.Nome = NomesPets[i];
                 pet.Idade = IdadesPets[i];
                 pet.Peso = PesosPets[i];
@@ -280,7 +308,8 @@ namespace ListaTindog
                     tutor = new Tutor();
                     tutor.Nome = NomesTutores[i];
                     tutor.Idade = IdadesTutores[i];
-                    tutor.Endereco.Rua = "Rua 1";
+                    tutor.Genero = GenerosTutor[i];
+                    tutor.Endereco.Rua = "Floriano Peixoto";
                     tutor.Endereco.Numero = 12;
                     tutor.Endereco.Cidade = "Florianópolis";
                     tutor.Endereco.Estado = Brasil.Estados.Santa_Catarina;

@@ -23,6 +23,7 @@ internal class Program
             Console.WriteLine("-----------------------------");
             Console.WriteLine($"Tutor: {tutor.Nome}");
             Console.WriteLine($"Idade do tutor: {tutor.Idade}");
+            Console.WriteLine($"Genêro do tutor: {tutor.Genero}");
             Console.WriteLine("-----------------------------");
             Console.WriteLine("Endereço do tutor");
             Console.WriteLine("-----------------------------");
@@ -37,10 +38,11 @@ internal class Program
             Console.WriteLine("-----------------------------");
             foreach (var pet in tutor.Pets)
             {
-                Console.WriteLine($"Nome do pet: {pet.Nome}");
-                Console.WriteLine($"Raça do pet: {Pet.ToDisplayString(pet.Raca)}");
-                Console.WriteLine($"Idade do pet: {pet.Idade}");
-                Console.WriteLine($"Peso do pet: {pet.Peso}");
+                Console.WriteLine($"Nome: {pet.Nome}");
+                Console.WriteLine($"Raça: {Pet.ToDisplayString(pet.Raca)}");
+                Console.WriteLine($"Idade: {pet.Idade}");
+                Console.WriteLine($"Peso: {pet.Peso}");
+                Console.WriteLine($"Genêro: {pet.Genero}");
                 Console.WriteLine("-----------------------------");
             }
             Console.WriteLine();
