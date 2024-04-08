@@ -14,11 +14,13 @@ namespace ListaTindog
 
         public string genero { get; set; }
 
-        public string? Endereco { get; set; }
+        public Endereco Endereco { get; set; }
 
         public List<Pet> Pets;
+
         public Tutor() { 
             Pets = new List<Pet>();
+            Endereco = new Endereco();            
         }
     }
 }

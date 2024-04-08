@@ -45,6 +45,8 @@ namespace ListaTindog
         public int Idade { get; set; }
         public double Peso { get; set; }
         public Racas Raca {  get; set; }
+
+
         public Pet() { }
 
         public static string ToDisplayString(Racas raca)

@@ -232,11 +232,15 @@ namespace ListaTindog
 
                 var tutor = Tutores.FirstOrDefault(p => p.Nome == NomesTutores[i]);
                 if (tutor == null)
-                {  
+                {
                     novo = true;
                     tutor = new Tutor();
                     tutor.Nome = NomesTutores[i];
                     tutor.Idade = IdadesTutores[i];
+                    tutor.Endereco.Rua = "Rua 1";
+                    tutor.Endereco.Numero = 12;
+                    tutor.Endereco.Cidade = "Florianópolis";
+                    tutor.Endereco.Estado = Brasil.Estados.Santa_Catarina;
                 }
 
                 tutor.Pets.Add(pet);
@@ -244,7 +248,7 @@ namespace ListaTindog
                 {
                     Tutores.Add(tutor);
                 }
-                
+
             }
         }
     }
