@@ -25,7 +25,7 @@ namespace ListaTindog
 
         public Tutor() { 
             Pets = new List<Pet>();
-            Endereco = new Endereco();            
+            Endereco = new Endereco();
         }
     
     }

@@ -283,6 +283,7 @@ namespace ListaTindog
         };
 
         public List<Tutor> Tutores;
+
         public Informacoes()
         {
             Tutores = new List<Tutor>();
@@ -291,8 +292,7 @@ namespace ListaTindog
         public void CarregarInformacoes()
         {
             for (int i = 0; i < 30; i++)
-            {
-                
+            {                
                 bool novo = false;
                 var pet = new Pet();
                 pet.Genero = GenerosPet[i];   

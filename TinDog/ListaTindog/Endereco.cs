@@ -38,7 +38,7 @@ namespace ListaTindog
                 case Estados.Rondonia:
                     return "Rondônia";
                 case Estados.Sao_Paulo:
-                    return "São_Paulo";
+                    return "São Paulo";
 
                 default:
                     return estado.ToString().Replace("_", " ");

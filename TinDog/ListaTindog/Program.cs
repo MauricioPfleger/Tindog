@@ -4,7 +4,7 @@ internal class Program
 {
     private static void Main(string[] args)
     {
-        Informacoes informacoes = new Informacoes();
+        var informacoes = new Informacoes();
         informacoes.CarregarInformacoes();
 
         var busca = "";
