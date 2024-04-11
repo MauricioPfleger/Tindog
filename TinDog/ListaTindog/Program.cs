@@ -20,10 +20,10 @@ internal class Program
         }
         else
         {
-            Console.WriteLine("-----------------------------");
-            Console.WriteLine($"Tutor: {tutor.Nome}");
+            Console.WriteLine($"Nome e sobrenome do tutor: {tutor.Nome} {tutor.Sobrenome}");
             Console.WriteLine($"Idade do tutor: {tutor.Idade}");
             Console.WriteLine($"Genêro do tutor: {tutor.Genero}");
+            Console.WriteLine($"número do tutor; {tutor.Numero}");
             Console.WriteLine("-----------------------------");
             Console.WriteLine("Endereço do tutor");
             Console.WriteLine("-----------------------------");

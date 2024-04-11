@@ -42,7 +42,40 @@ namespace ListaTindog
             "Julia",
             "Mauricio"
         };
-
+        string[] SobrenomesTutores =
+        {
+            "Pfleger", 
+            "Souza", 
+            "Silva", 
+            "Queiroz", 
+            "Santos", 
+            "Vissovati", 
+            "Fabris", 
+            "Nardelli", 
+            "Mundi", 
+            "Marques", 
+            "Fernandes", 
+            "Junior", 
+            "Jacques", 
+            "Lionel", 
+            "Juari", 
+            "Fonseca", 
+            "Danielo", 
+            "Kairo", 
+            "Pavonsk", 
+            "Vera", 
+            "Aparecida", 
+            "Adrano", 
+            "Schultz", 
+            "Hardt", 
+            "Vitória", 
+            "Tibum", 
+            "Yohr", 
+            "Wesley", 
+            "Alvez", 
+            "Rato", 
+            "Dionisio"
+        };
         int[] IdadesTutores =
         {
             15,
@@ -109,6 +142,42 @@ namespace ListaTindog
             Tutor.Generos.Feminino,
             Tutor.Generos.Masculino
         };
+        int[] NumerosTutores =
+        { 
+            3652827,
+            3652829,
+            5326527,
+            8364536,
+            4875562,
+            3265547,
+            4755687,
+            8745646,
+            7864674,
+            5738992,
+            7434689,
+            8936456,
+            6934877,
+            6873887,
+            9847474,
+            1361462,
+            4637826,
+            2876543,
+            8765843,
+            3892563,
+            2636578,
+            1987566,
+            2847846,
+            7854676,
+            3744573,
+            7835546,
+            1947465,
+            4984345,
+            9876554,
+            3456589,
+            2637885
+
+        };
+
         string[] NomesPets =
         {
             "Max",
@@ -307,8 +376,10 @@ namespace ListaTindog
                     novo = true;
                     tutor = new Tutor();
                     tutor.Nome = NomesTutores[i];
+                    tutor.Sobrenome = SobrenomesTutores[i];
                     tutor.Idade = IdadesTutores[i];
                     tutor.Genero = GenerosTutor[i];
+                    tutor.Numero = NumerosTutores[i];
                     tutor.Endereco.Rua = "Floriano Peixoto";
                     tutor.Endereco.Numero = 12;
                     tutor.Endereco.Cidade = "Florianópolis";

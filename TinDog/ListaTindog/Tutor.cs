@@ -17,6 +17,10 @@ namespace ListaTindog
 
         public int Idade { get; set; }
 
+        public string Sobrenome { get; set; }
+
+        public int Numero { get; set; }
+
         public Generos Genero { get; set; }
 
         public Endereco Endereco { get; set; }
