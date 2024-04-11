@@ -43,6 +43,7 @@ internal class Program
                 Console.WriteLine($"Idade: {pet.Idade}");
                 Console.WriteLine($"Peso: {pet.Peso}");
                 Console.WriteLine($"Genêro: {pet.Genero}");
+                Console.WriteLine($"Quantidade de vacinas: {pet.Vacinas}");
                 Console.WriteLine("-----------------------------");
             }
             Console.WriteLine();
