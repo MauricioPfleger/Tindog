@@ -23,7 +23,7 @@ internal class Program
             Console.WriteLine($"Nome e sobrenome do tutor: {tutor.Nome} {tutor.Sobrenome}");
             Console.WriteLine($"Idade do tutor: {tutor.Idade}");
             Console.WriteLine($"Genêro do tutor: {tutor.Genero}");
-            Console.WriteLine($"número do tutor; {tutor.Numero}");
+            Console.WriteLine($"Número do tutor: {tutor.Numero}");
             Console.WriteLine("-----------------------------");
             Console.WriteLine("Endereço do tutor");
             Console.WriteLine("-----------------------------");
@@ -43,6 +43,14 @@ internal class Program
                 Console.WriteLine($"Idade: {pet.Idade}");
                 Console.WriteLine($"Peso: {pet.Peso}");
                 Console.WriteLine($"Genêro: {pet.Genero}");
+                Console.WriteLine($"Pedigree: {Pet.ToDisplayString(pet.Pedigree)}");
+
+                //if (pet.Pedigree == true)
+                //    Console.WriteLine($"Pedigree: Sim");
+                //else 
+                //    Console.WriteLine($"Pedigree: Não");
+
+
                 Console.WriteLine($"Quantidade de vacinas: {pet.Vacinas}");
                 Console.WriteLine("-----------------------------");
             }
