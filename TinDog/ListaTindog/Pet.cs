@@ -53,6 +53,8 @@ namespace ListaTindog
         public double Peso { get; set; }
         public Racas Raca { get; set; }
         public Generos Genero { get; set; }
+        public int Vacinas { get; set; }
+        public bool Pedigree { get; set; }  
 
 
         public Pet() { }

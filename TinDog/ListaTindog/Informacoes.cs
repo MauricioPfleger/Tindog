@@ -247,6 +247,75 @@ namespace ListaTindog
             29,
             30
         };
+        int[] VacinaPet =
+        {
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30
+        };
+
+        bool[] PedigreePet =
+        {
+            true,
+            false,
+            true,
+            false,
+            false,
+            true,
+            false,
+            false,
+            false,
+            true,
+            true,
+            false,
+            true,
+            false,
+            false,
+            true,
+            false,
+            false,
+            false,
+            true,
+            true,
+            false,
+            true,
+            false,
+            false,
+            true,
+            false,
+            false,
+            false,
+            true,
+
+        };
+
 
         double[] PesosPets =
         {
@@ -300,6 +369,8 @@ namespace ListaTindog
                 pet.Idade = IdadesPets[i];
                 pet.Peso = PesosPets[i];
                 pet.Raca = RacasPet[i];
+                pet.Vacinas = VacinaPet[i];
+                pet.Pedigree = PedigreePet[i];
 
                 var tutor = Tutores.FirstOrDefault(p => p.Nome == NomesTutores[i]);
                 if (tutor == null)
